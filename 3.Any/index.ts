@@ -16,5 +16,9 @@ const userObj: {
 
 
 // Указывайте сразу тип! any - зло
-let counter;
+
+
+let counter: number;
+
+
 counter = 23;
