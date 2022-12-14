@@ -15,7 +15,7 @@ const res = catDataTuple.map((el) => `${el} - data`);
 //деструктуризация
 const [age, catname, alive] = catDataTuple;
 
-//спрет оператор
+//спред оператор
 //мы развернули массив в конце
 //за счет этого мы можем расширять сколько угодно его, но в формате string
 const student: [string, string, number, ...string[]] = ['Широв', 'Иван', 26, 'Group-4']
