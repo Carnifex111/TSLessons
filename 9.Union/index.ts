@@ -17,3 +17,4 @@ const printMsg = (msg: string | number): void => {
 
 // Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
 // (Важное условие! Написать на TypeScript.Не гуглить)
+const hello: string = 'Hello world =)';
