@@ -11,6 +11,10 @@ const AppContextProvider: React.FC<AppContextProviderProps> = ({
   const [name, setName] = useState<string>("Ivan Shirov");
   const [age, setAge] = useState<number>(25);
   const [characterName, setCharacterName] = useState<string>("");
+  const [group, setGroup] = useState<string>("23");
+  const [color, setColor] = useState<string>("blue");
+  const [nick, setNick] = useState<string>("user1");
+  const [theme, setTheme] = useState<string>("red");
 
   useEffect(() => {
     fetch("https://rickandmortyapi.com/api/character/1")
@@ -28,6 +32,10 @@ const AppContextProvider: React.FC<AppContextProviderProps> = ({
     name,
     age,
     characterName,
+    group,
+    color,
+    nick,
+    theme,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
